@@ -22,6 +22,8 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
+  gem "pry-rails"
+  gem "pry-rescue"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
