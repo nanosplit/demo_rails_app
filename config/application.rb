@@ -34,5 +34,14 @@ module Nanosplit
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # generate rspec tets for rails g scaffold / model / controller
+    config.generators do |g|
+      g.test_framework :rspec, fixture: true
+
+      g.view_specs false
+      g.helper_specs false
+    end
+
   end
 end
