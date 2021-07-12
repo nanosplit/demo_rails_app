@@ -44,5 +44,7 @@ module Nanosplit
       g.helper_specs false
     end
 
+    config.active_storage.variant_processor = :vips
+
   end
 end
