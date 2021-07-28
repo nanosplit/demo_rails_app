@@ -1,24 +1,16 @@
-# README
+# Demo Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### This is a demo Ruby on Rails application with a ridiculous amount of tests (Code to Test Ratio: 1:4.1)
 
-Things you may want to cover:
+### Getting Started:
+ - Clone & CD into the repo
+ - `bundle install`
+ - `docker-compose up -d`
+ - `rails s -b 0.0.0.0`
+ - [http://localhost:3000]([http://localhost:3000])
 
-* Ruby version
+### Running Tests:
+ - `rspec`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### View Stats:
+ - `rails stats`
