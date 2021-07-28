@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @portfolio.name %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @portfolio.website %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @portfolio.description %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @portfolio.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @portfolio.end_date %>
+</p>
+
+<p>
+  <strong>Actively working:</strong>
+  <%= @portfolio.actively_working %>
+</p>
+
+<%= link_to 'Edit', edit_portfolio_path(@portfolio) %> |
+<%= link_to 'Back', portfolios_path %>
