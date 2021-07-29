@@ -6,6 +6,7 @@
  - Clone & CD into the repo
  - `bundle install`
  - `docker-compose up -d`
+ - `rails db:create && rails db:migrate`
  - `rails s -b 0.0.0.0`
  - [http://localhost:3000]([http://localhost:3000])
 
